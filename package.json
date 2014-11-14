@@ -1,0 +1,38 @@
+{
+  "name": "ractive-watch",
+  "version": "1.0.0",
+  "description": "Use Object.observe to set properties on a Ractive model instead of calling .set/.get directly",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "clone": "^0.1.18",
+    "observe-js": "^0.4.2",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "tap-spec": "^1.0.1",
+    "tape": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/ractive-watch.git"
+  },
+  "keywords": [
+    "observe",
+    "watch",
+    "trigger",
+    "ractive"
+  ],
+  "homepage": "https://github.com/hughsk/ractive-watch",
+  "bugs": {
+    "url": "https://github.com/hughsk/ractive-watch/issues"
+  }
+}
